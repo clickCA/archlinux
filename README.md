@@ -1,2 +1,2 @@
 # archinstall-dev
-My arch installation to recover install of my tool that I use
+My arch linux installation script to recover a tool that I use.
