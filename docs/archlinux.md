@@ -2,9 +2,17 @@
 
 Boot with ventoy and install via this command:
 
-```jsx
+```bash
 archinstall
 ```
+Guide from official link
+https://wiki.archlinux.org/title/Installation_guide
+Install many Linux kernel
+- Linux
+- linux-zen
+To fix the problem when having kernel doom 
+This will be show in bootloader to show which kernel you want to boot
+
 
 [YouTube video: Booting and Installing Arch Linux with Ventoy](https://youtu.be/r5CXwtwdUmc?si=vaIT68GUpui-50ql)
 
