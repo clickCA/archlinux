@@ -13,15 +13,3 @@ git clone https://aur.archlinux.org/telegram-desktop-bin.git
 cd telegram-desktop-bin
 makepkg -si
 cd ..
-git clone https://aur.archlinux.org/notion-app.git 
-cd notion-app
-makepkg -si
-cd ..
-git clone https://aur.archlinux.org/smartgit.git
-cd smartgit
-makepkg -si
-cd ..
-git clone https://aur.archlinux.org/insomnia.git
-cd insomnia
-makepkg -si
-cd ..
