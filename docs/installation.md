@@ -38,6 +38,7 @@ Here are some commands used during the video for manual installation:
 - Set up encryption:
   - Encrypt the third partition: `cryptsetup luksFormat /dev/nvme0n1p3`
   - Unlock the encrypted volume: `cryptsetup open --type luks /dev/nvme0n1p3 lvm`
+> careful that sometimes when you reboot the order of nvme is not the same try to read through the disk -l command before you doing this step because you can broke the other system that use another drive
 - Set up LVM:
   - Create a physical volume: `pvcreate /dev/mapper/lvm`
   - Create a volume group: `vgcreate volgroup0 /dev/mapper/lvm`
