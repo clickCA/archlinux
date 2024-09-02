@@ -8,8 +8,10 @@ git clone https://aur.archlinux.org/visual-studio-code-bin.git
 cd visual-studio-code-bin
 makepkg -si
 cd ..
-pacman -Sy discord 
+pacman -Sy discord
 git clone https://aur.archlinux.org/telegram-desktop-bin.git
 cd telegram-desktop-bin
 makepkg -si
 cd ..
+curl -f https://zed.dev/install.sh | sh
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
