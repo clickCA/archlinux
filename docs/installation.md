@@ -74,6 +74,8 @@ Here are some commands used during the video for manual installation:
   - Intel (Broadwell and newer): `pacman -S intel-media-driver`
   - Intel GMA 4500 up to Coffee Lake: `pacman -S libva-mesa-driver`
   - AMD: `pacman -S libva-mesa-driver`
+- Install the timeshift package: `pacman -S timeshift` and enable the service: `systemctl enable cronie.service`
+`
 
 ## Edit configuration files
 
