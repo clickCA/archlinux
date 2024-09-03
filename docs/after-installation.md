@@ -4,6 +4,10 @@ Contain various step
 - If using kde plasma, fix the font rendering issue
 - Remove kmix from kde plasma to fix annoying icon tray
 - Install oh my bash theme
+    ```bash
+    pacman -S oh-my-bash
+    # OSH_THEME='tylenol'
+    ```
 - Improve download speed in terminal
 - If using nvidia, be careful when updating the system
 - Install fastfetch to show off

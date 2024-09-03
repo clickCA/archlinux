@@ -1,6 +1,16 @@
 # Make the system dual-boot
 
 from [ArchWiki](https://wiki.archlinux.org/title/GRUB#Detecting_other_operating_systems)
+To make Windows dual boot, follow the steps in this video: 
+
+- [Youtube video Dual Boot Arch Linux with Windows](https://youtu.be/xBPn0fF8bTY?si=V4sB-JPpXsx0e90c)
+
+```bash
+sudo pacman -S os-prober ntfs-3g neovim
+sudo nvim /etc/default/grub # change this line GRUB_DISABLE_OS_PROBER=false
+sudo os-prober
+sudo grub-mkconfig -o /boot/grub/grub.cfg
+```
 
 ## Detecting other operating systems
 
