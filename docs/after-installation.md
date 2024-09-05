@@ -9,6 +9,7 @@ This is a guide to follow the [General Recommendations](https://wiki.archlinux.o
 - Remove kmix from KDE Plasma to fix the annoying icon tray.
 
 - Install oh my bash theme:
+
     ```bash
     pacman -S oh-my-bash
     # OSH_THEME='tylenol'
@@ -24,3 +25,4 @@ This is a guide to follow the [General Recommendations](https://wiki.archlinux.o
 
 - Create a backup using Timeshift after finishing the configuration.
 
+- When `pacman -Syu` it reccomends to install outside the desktop environment because it can cause upgrade that break the dependencies.
