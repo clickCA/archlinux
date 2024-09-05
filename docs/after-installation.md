@@ -25,4 +25,4 @@ This is a guide to follow the [General Recommendations](https://wiki.archlinux.o
 
 - Create a backup using Timeshift after finishing the configuration.
 
-- When `pacman -Syu` it reccomends to install outside the desktop environment because it can cause upgrade that break the dependencies.
+- When `pacman -Syu` it recommends to install outside the desktop environment because it can cause upgrade that break the dependencies.
