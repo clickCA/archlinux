@@ -15,7 +15,7 @@ Improving download speed in the terminal:
 - [Arch Linux Man Page: reflector](https://man.archlinux.org/man/reflector.1#EXAMPLES)
 
 Fixing inconsistent font rendering:
-
+`vim ~/.config/fontconfig/fonts.conf`
 - [Super User: Notification box in KDE Plasma does not display all emoji as colored](https://superuser.com/questions/1800068/notification-box-in-kde-plasma-does-not-display-all-emoji-as-coloured)
 
 Slow download speed:
@@ -25,3 +25,7 @@ Slow download speed:
 Install conda in Arch Linux:
 - [Cant install conda need to use miniconda instead](./install-conda.md)
 
+Change default kernel in Arch Linux:
+- https://unix.stackexchange.com/questions/198003/set-the-default-kernel-in-grub
+`vim /etc/default/grub`
+`sudo grub-mkconfig -o /boot/grub/grub.cfg`
