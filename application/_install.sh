@@ -8,3 +8,9 @@ for file in *.sh; do
         "./$file"
     fi
 done
+
+# Run docker.sh script
+./docker.sh
+
+# Run essentials.sh script
+./essentials.sh

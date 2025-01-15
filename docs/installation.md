@@ -23,3 +23,19 @@ Install multiple Linux kernels:
 - linux-zen
 - linux-lts
 To fix the problem when having kernel doom, the bootloader will show which kernel you want to boot.
+
+## Install GNOME desktop environment
+
+To install the GNOME desktop environment, run the following command:
+
+```bash
+sudo pacman -S gnome gnome-tweaks
+```
+
+## Install development tools
+
+To install development tools, run the following command:
+
+```bash
+sudo pacman -S base-devel
+```
