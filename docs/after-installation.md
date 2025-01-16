@@ -26,3 +26,19 @@ This is a guide to follow the [General Recommendations](https://wiki.archlinux.o
 - Create a backup using Timeshift after finishing the configuration.
 
 - When `pacman -Syu` it recommends to install outside the desktop environment because it can cause upgrade that break the dependencies.
+
+## Install GNOME desktop environment
+
+To install the GNOME desktop environment, run the following command:
+
+```bash
+sudo pacman -S gnome gnome-tweaks
+```
+
+## Install development tools
+
+To install development tools, run the following command:
+
+```bash
+sudo pacman -S base-devel
+```

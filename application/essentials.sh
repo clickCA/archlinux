@@ -23,3 +23,9 @@ cd ..
 sudo rm -rf telegram-desktop-bin
 
 bash -c "$(curl -fsSL https://raw.githubusercontent.com/ohmybash/oh-my-bash/master/tools/install.sh)"
+
+# Install GNOME desktop environment
+sudo pacman -S gnome gnome-tweaks
+
+# Install development tools
+sudo pacman -S base-devel

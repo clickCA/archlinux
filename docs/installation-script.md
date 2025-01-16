@@ -99,3 +99,19 @@ Here are some commands used during the video for manual installation:
 - Exit the chroot environment: `exit`
 - Unmount all partitions: `umount -a`
 - Reboot the system: `reboot`
+
+## Install GNOME desktop environment
+
+To install the GNOME desktop environment, run the following command:
+
+```bash
+sudo pacman -S gnome gnome-tweaks
+```
+
+## Install development tools
+
+To install development tools, run the following command:
+
+```bash
+sudo pacman -S base-devel
+```

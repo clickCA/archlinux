@@ -85,3 +85,9 @@ docker-compose --version
 
 # Expected output:
 # docker-compose version 1.29.2, build 5becea4c
+
+# Install Node.js
+sudo pacman -S nodejs npm
+
+# Install Visual Studio Code
+sudo pacman -S visual-studio-code-bin
